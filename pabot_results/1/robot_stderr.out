@@ -1,0 +1,29 @@
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+[ ERROR ] Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
+    rc = self.main(arguments, **options)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/run.py", line 443, in main
+    result = suite.run(settings)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/model.py", line 259, in run
+    self.visit(runner)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testsuite.py", line 174, in visit
+    visitor.visit_suite(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/visitor.py", line 88, in visit_suite
+    suite.tests.visit(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/itemlist.py", line 77, in visit
+    item.visit(visitor)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testcase.py", line 78, in visit
+    visitor.visit_test(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/runner.py", line 122, in visit_test
+    status = TestStatus(self._suite_status, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
+    bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:31:30 [browserstack_sdk.__init__][INFO] - All done!

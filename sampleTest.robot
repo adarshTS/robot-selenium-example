@@ -3,7 +3,8 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 BrowserStack Demo Website
-    Open Browser    https://bstackdemo.com/signin    Chrome
+    Open Browser    https://bstackdemo.com/signin
+    Wait Until Element Is Visible    //div[text()='Select Username'] 
     Click Element    //div[text()='Select Username']
     Wait Until Element Is Visible    //div[@id="react-select-2-option-0-0"]
     Click Element    //div[@id="react-select-2-option-0-0"]
@@ -26,4 +27,5 @@ BrowserStack Demo Website
     Input Text    //input[@id="postCodeInput"]    4999
     Click Element    //button[@id="checkout-shipping-continue"]
     Wait Until Location Is    https://bstackdemo.com/confirmation
+    Close Browser
 
