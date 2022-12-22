@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.11.0 on darwin)" generated="20221222 21:26:33.484" rpa="false">
+<suite id="s1" name="sampleTest" source="/Users/adarsh/Documents/CE/robot-selenium-example/sampleTest.robot">
+<test id="s1-t1" name="BrowserStack Demo Website">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://bstackdemo.com/signin</arg>
+</arguments>
+<msg timestamp="20221222 21:26:33.557" level="INFO">Opening browser 'firefox' to base url 'https://bstackdemo.com/signin'.</msg>
+<msg timestamp="20221222 21:26:33.557" level="INFO">Firefox driver log is always forced to to: /Users/adarsh/Documents/CE/robot-selenium-example/geckodriver-1.log</msg>
+<status status="PASS" starttime="20221222 21:26:33.557" endtime="20221222 21:26:37.252"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[text()='Select Username']</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:37.252" endtime="20221222 21:26:37.264"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[text()='Select Username']</arg>
+</arguments>
+<msg timestamp="20221222 21:26:37.264" level="INFO">Clicking element '//div[text()='Select Username']'.</msg>
+<status status="PASS" starttime="20221222 21:26:37.264" endtime="20221222 21:26:37.493"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id="react-select-2-option-0-0"]</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:37.493" endtime="20221222 21:26:37.501"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id="react-select-2-option-0-0"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:37.501" level="INFO">Clicking element '//div[@id="react-select-2-option-0-0"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:37.501" endtime="20221222 21:26:37.717"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[text()='Select Password']</arg>
+</arguments>
+<msg timestamp="20221222 21:26:37.717" level="INFO">Clicking element '//div[text()='Select Password']'.</msg>
+<status status="PASS" starttime="20221222 21:26:37.717" endtime="20221222 21:26:37.938"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@id="react-select-3-option-0-0"]</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:37.938" endtime="20221222 21:26:37.953"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@id="react-select-3-option-0-0"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:37.953" level="INFO">Clicking element '//div[@id="react-select-3-option-0-0"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:37.953" endtime="20221222 21:26:38.165"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//button[@id="login-btn"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:38.165" level="INFO">Clicking element '//button[@id="login-btn"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:38.165" endtime="20221222 21:26:38.390"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//div[@class="shelf-item__buy-btn"]</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:38.390" endtime="20221222 21:26:39.245"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@class="shelf-item__buy-btn"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:39.246" level="INFO">Clicking element '//div[@class="shelf-item__buy-btn"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:39.245" endtime="20221222 21:26:39.459"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//span[text()='Google']</arg>
+</arguments>
+<msg timestamp="20221222 21:26:39.459" level="INFO">Clicking element '//span[text()='Google']'.</msg>
+<status status="PASS" starttime="20221222 21:26:39.459" endtime="20221222 21:26:39.676"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=(//div[@class="shelf-item__buy-btn"])[2]</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:39.676" endtime="20221222 21:26:39.689"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=(//div[@class="shelf-item__buy-btn"])[2]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:39.689" level="INFO">Clicking element 'xpath=(//div[@class="shelf-item__buy-btn"])[2]'.</msg>
+<status status="PASS" starttime="20221222 21:26:39.689" endtime="20221222 21:26:39.902"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@class="buy-btn"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:39.903" level="INFO">Clicking element '//div[@class="buy-btn"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:39.902" endtime="20221222 21:26:40.118"></status>
+</kw>
+<kw name="Wait Until Location Is" library="SeleniumLibrary">
+<doc>Waits until the current URL is ``expected``.</doc>
+<arguments>
+<arg>https://bstackdemo.com/checkout</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:40.118" endtime="20221222 21:26:40.736"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@id="firstNameInput"]</arg>
+<arg>Adarsh</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.736" level="INFO">Typing text 'Adarsh' into text field '//input[@id="firstNameInput"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.736" endtime="20221222 21:26:40.752"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@id="lastNameInput"]</arg>
+<arg>S</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.753" level="INFO">Typing text 'S' into text field '//input[@id="lastNameInput"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.752" endtime="20221222 21:26:40.762"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@id="addressLine1Input"]</arg>
+<arg>Street1</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.762" level="INFO">Typing text 'Street1' into text field '//input[@id="addressLine1Input"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.762" endtime="20221222 21:26:40.769"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@id="provinceInput"]</arg>
+<arg>State</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.769" level="INFO">Typing text 'State' into text field '//input[@id="provinceInput"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.769" endtime="20221222 21:26:40.774"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//div[@class="checkout-address"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.774" level="INFO">Clicking element '//div[@class="checkout-address"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.774" endtime="20221222 21:26:40.982"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>//input[@id="postCodeInput"]</arg>
+<arg>4999</arg>
+</arguments>
+<msg timestamp="20221222 21:26:40.983" level="INFO">Typing text '4999' into text field '//input[@id="postCodeInput"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:40.983" endtime="20221222 21:26:41.007"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//button[@id="checkout-shipping-continue"]</arg>
+</arguments>
+<msg timestamp="20221222 21:26:41.007" level="INFO">Clicking element '//button[@id="checkout-shipping-continue"]'.</msg>
+<status status="PASS" starttime="20221222 21:26:41.007" endtime="20221222 21:26:41.223"></status>
+</kw>
+<kw name="Wait Until Location Is" library="SeleniumLibrary">
+<doc>Waits until the current URL is ``expected``.</doc>
+<arguments>
+<arg>https://bstackdemo.com/confirmation</arg>
+</arguments>
+<status status="PASS" starttime="20221222 21:26:41.223" endtime="20221222 21:26:41.648"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221222 21:26:41.649" endtime="20221222 21:26:42.057"></status>
+</kw>
+<status status="PASS" starttime="20221222 21:26:33.556" endtime="20221222 21:26:42.057" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20221222 21:26:33.485" endtime="20221222 21:26:42.057"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="sampleTest">sampleTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

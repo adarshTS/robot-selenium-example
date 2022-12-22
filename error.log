@@ -1,0 +1,119 @@
+2022-12-22 21:31:30.069141 [PID:95094] [0] [ID:1] EXECUTING sampleTest
+2022-12-22 21:31:30.069871 [PID:95095] [2] [ID:2] EXECUTING sampleTest
+2022-12-22 21:31:30.069936 [PID:95096] [1] [ID:0] EXECUTING sampleTest
+2022-12-22 21:31:30.384437 [PID:95094] [0] [ID:1] Execution failed in sampleTest with 255 failing test(s)
+==============================================================================
+sampleTest                                                                    
+==============================================================================
+BrowserStack Demo Website                                             
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+[ ERROR ] Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
+    rc = self.main(arguments, **options)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/run.py", line 443, in main
+    result = suite.run(settings)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/model.py", line 259, in run
+    self.visit(runner)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testsuite.py", line 174, in visit
+    visitor.visit_suite(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/visitor.py", line 88, in visit_suite
+    suite.tests.visit(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/itemlist.py", line 77, in visit
+    item.visit(visitor)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testcase.py", line 78, in visit
+    visitor.visit_test(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/runner.py", line 122, in visit_test
+    status = TestStatus(self._suite_status, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
+    bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:31:30 [browserstack_sdk.__init__][INFO] - All done!
+
+2022-12-22 21:31:30.384672 [PID:95095] [2] [ID:2] Execution failed in sampleTest with 255 failing test(s)
+==============================================================================
+sampleTest                                                                    
+==============================================================================
+BrowserStack Demo Website                                             
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+[ ERROR ] Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
+    rc = self.main(arguments, **options)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/run.py", line 443, in main
+    result = suite.run(settings)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/model.py", line 259, in run
+    self.visit(runner)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testsuite.py", line 174, in visit
+    visitor.visit_suite(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/visitor.py", line 88, in visit_suite
+    suite.tests.visit(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/itemlist.py", line 77, in visit
+    item.visit(visitor)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testcase.py", line 78, in visit
+    visitor.visit_test(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/runner.py", line 122, in visit_test
+    status = TestStatus(self._suite_status, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
+    bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:31:30 [browserstack_sdk.__init__][INFO] - All done!
+
+2022-12-22 21:31:30.384785 [PID:95096] [1] [ID:0] Execution failed in sampleTest with 255 failing test(s)
+==============================================================================
+sampleTest                                                                    
+==============================================================================
+BrowserStack Demo Website                                             
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+[ ERROR ] Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
+    rc = self.main(arguments, **options)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/run.py", line 443, in main
+    result = suite.run(settings)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/model.py", line 259, in run
+    self.visit(runner)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testsuite.py", line 174, in visit
+    visitor.visit_suite(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/visitor.py", line 88, in visit_suite
+    suite.tests.visit(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/itemlist.py", line 77, in visit
+    item.visit(visitor)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testcase.py", line 78, in visit
+    visitor.visit_test(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/runner.py", line 122, in visit_test
+    status = TestStatus(self._suite_status, result)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
+    bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)
+
+21:31:30 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:31:30 [browserstack_sdk.__init__][INFO] - All done!
+
+Reading XML source './pabot_results/0/output.xml' failed: Incompatible XML element 'errors'.
+Skipping './pabot_results/0/output.xml' from final result
+Reading XML source './pabot_results/1/output.xml' failed: Incompatible XML element 'errors'.
+Skipping './pabot_results/1/output.xml' from final result
+Reading XML source './pabot_results/2/output.xml' failed: Incompatible XML element 'errors'.
+Skipping './pabot_results/2/output.xml' from final result
+0 critical tests, 0 passed, 0 failed
+0 tests total, 0 passed, 0 failed
+===================================================
+Total testing: 0.89 seconds
+Elapsed time:  0.43 seconds
