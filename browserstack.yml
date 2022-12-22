@@ -1,5 +1,5 @@
-userName: adarshsreeram_y1cpaK
-accessKey: e5vxmEj2hHdcoYsnLopB
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
 platforms:
   - os: Windows
     osVersion: 11
