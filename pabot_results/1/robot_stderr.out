@@ -1,5 +1,5 @@
 
-21:31:30 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+22:11:40 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 [ ERROR ] Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
 Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
@@ -24,6 +24,6 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
     bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)
 
-21:31:30 [browserstack_sdk.__init__][INFO] - Handling session close
+22:11:40 [browserstack_sdk.__init__][INFO] - Handling session close
 
-21:31:30 [browserstack_sdk.__init__][INFO] - All done!
+22:11:40 [browserstack_sdk.__init__][INFO] - All done!
