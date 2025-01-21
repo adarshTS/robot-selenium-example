@@ -1,16 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Rebot 7.2 (Python 3.11.4 on darwin)" generated="2025-01-21T19:13:44.736214" rpa="false" schemaversion="5">
-<suite id="s1">
-<status status="SKIP" elapsed="0.000000"/>
+<robot generator="Rebot 7.1.1 (Python 3.11.4 on darwin)" generated="2025-01-21T20:45:55.270759" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="sampleTest OS X, Ventura, Chrome, 112" source="/Users/adarsh/Documents/CE/robot-selenium-example/sampleTest.robot">
+<test id="s1-s1-t1" name="BrowserStack Demo Website" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:15.097908" level="INFO">Opening browser 'firefox' to base url 'https://bstackdemo.com/signin'.</msg>
+<msg time="2025-01-21T20:45:22.856642" level="INFO">Completed setup!</msg>
+<arg>https://bstackdemo.com/signin</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-21T20:45:15.097696" elapsed="25.718237"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[text()='Select Username']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-21T20:45:40.822705" elapsed="0.182622"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:41.007842" level="INFO">Clicking element '//div[text()='Select Username']'.</msg>
+<arg>//div[text()='Select Username']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.006803" elapsed="0.183482"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[@id="react-select-2-option-0-0"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.192582" elapsed="0.188602"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:41.382026" level="INFO">Clicking element '//div[@id="react-select-2-option-0-0"]'.</msg>
+<arg>//div[@id="react-select-2-option-0-0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.381602" elapsed="0.190467"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:41.572994" level="INFO">Clicking element '//div[text()='Select Password']'.</msg>
+<arg>//div[text()='Select Password']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.572543" elapsed="0.178254"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[@id="react-select-3-option-0-0"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.751621" elapsed="0.184914"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:41.938474" level="INFO">Clicking element '//div[@id="react-select-3-option-0-0"]'.</msg>
+<arg>//div[@id="react-select-3-option-0-0"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:41.937798" elapsed="0.159805"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:42.100854" level="INFO">Clicking element '//button[@id="login-btn"]'.</msg>
+<arg>//button[@id="login-btn"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:42.099749" elapsed="0.165363"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//div[@class="shelf-item__buy-btn"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-21T20:45:42.266044" elapsed="1.174997"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:43.442484" level="INFO">Clicking element '//div[@class="shelf-item__buy-btn"]'.</msg>
+<arg>//div[@class="shelf-item__buy-btn"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:43.441741" elapsed="0.159311"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:43.601837" level="INFO">Clicking element '//span[text()='Google']'.</msg>
+<arg>//span[text()='Google']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:43.601499" elapsed="0.194269"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:44.037954" level="INFO">Suppressing StaleElementReferenceException from Selenium.</msg>
+<arg>xpath=(//div[@class="shelf-item__buy-btn"])[2]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-21T20:45:43.796141" elapsed="0.581778"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:44.380140" level="INFO">Clicking element 'xpath=(//div[@class="shelf-item__buy-btn"])[2]'.</msg>
+<arg>xpath=(//div[@class="shelf-item__buy-btn"])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:44.379247" elapsed="0.176389"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:44.558231" level="INFO">Clicking element '//div[@class="buy-btn"]'.</msg>
+<arg>//div[@class="buy-btn"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:44.557116" elapsed="0.220064"/>
+</kw>
+<kw name="Wait Until Location Is" owner="SeleniumLibrary">
+<arg>https://bstackdemo.com/checkout</arg>
+<doc>Waits until the current URL is ``expected``.</doc>
+<status status="PASS" start="2025-01-21T20:45:44.778199" elapsed="0.158897"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:44.940009" level="INFO">Typing text 'Adarsh' into text field '//input[@id="firstNameInput"]'.</msg>
+<arg>//input[@id="firstNameInput"]</arg>
+<arg>Adarsh</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:44.938836" elapsed="0.306144"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:45.247338" level="INFO">Typing text 'S' into text field '//input[@id="lastNameInput"]'.</msg>
+<arg>//input[@id="lastNameInput"]</arg>
+<arg>S</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:45.246539" elapsed="0.311292"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:45.561419" level="INFO">Typing text 'Street1' into text field '//input[@id="addressLine1Input"]'.</msg>
+<arg>//input[@id="addressLine1Input"]</arg>
+<arg>Street1</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:45.560408" elapsed="0.374240"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:45.937382" level="INFO">Typing text 'State' into text field '//input[@id="provinceInput"]'.</msg>
+<arg>//input[@id="provinceInput"]</arg>
+<arg>State</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:45.936214" elapsed="0.295223"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:46.234720" level="INFO">Clicking element '//div[@class="checkout-address"]'.</msg>
+<arg>//div[@class="checkout-address"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:46.233638" elapsed="0.157629"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:46.394366" level="INFO">Typing text '4999' into text field '//input[@id="postCodeInput"]'.</msg>
+<arg>//input[@id="postCodeInput"]</arg>
+<arg>4999</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:46.393181" elapsed="0.277948"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-01-21T20:45:46.673536" level="INFO">Clicking element '//button[@id="checkout-shipping-continue"]'.</msg>
+<arg>//button[@id="checkout-shipping-continue"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-21T20:45:46.672619" elapsed="0.344873"/>
+</kw>
+<kw name="Wait Until Location Is" owner="SeleniumLibrary">
+<arg>https://bstackdemo.com/confirmation</arg>
+<doc>Waits until the current URL is ``expected``.</doc>
+<status status="PASS" start="2025-01-21T20:45:47.019526" elapsed="0.340455"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-21T20:45:47.362188" elapsed="0.001211"/>
+</kw>
+<status status="PASS" start="2025-01-21T20:45:15.096846" elapsed="32.267606"/>
+</test>
+<status status="PASS" start="2025-01-21T20:45:15.075000" elapsed="32.268000"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 1 executions.</doc>
+<status status="PASS" start="2025-01-21T20:45:15.075000" elapsed="32.268000"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat id="s1" pass="0" fail="0" skip="0"/>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="sampleTest OS X, Ventura, Chrome, 112">Suites.sampleTest OS X, Ventura, Chrome, 112</stat>
 </suite>
 </statistics>
 <errors>

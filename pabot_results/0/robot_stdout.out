@@ -1,11 +1,19 @@
 
-19:13:40 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:45:13 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-19:13:41 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+20:45:15 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 sampleTest                                                                    
 ==============================================================================
 BrowserStack Demo Website                                             
-19:13:42 [browserstack_sdk.__init__][INFO] - Handling session close
+20:45:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+sampleTest                                                            | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/adarsh/Documents/CE/robot-selenium-example/pabot_results/0/output.xml
 
-19:13:42 [browserstack_sdk.__init__][INFO] - All done!
+20:45:52 [browserstack_sdk.__init__][INFO] - Handling session close
+
+20:45:52 [browserstack_sdk.__init__][INFO] - All done!
