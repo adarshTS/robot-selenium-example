@@ -1,0 +1,23 @@
+{   
+      "server": "hub-cloud.browserstack.com",
+      "username": "akashjain_3xLDbd",
+      "access_key": "ezQSWjMNq5pecskZTH7Q",
+
+    "capabilities": {
+      "project": "First TestNg iOS Project",
+      "build": "browserstack-build-1",
+      "name": "sequential tests",
+      "browserstack.debug": true,
+      "browserstack.deviceId": "00008112-001919960203401E",
+      "browserstack.dedicatedDevice": true,
+      "app": "bs://c22bad326cf91bae71546029c9b5d070c273c065"
+    },
+
+    "environments": [
+      {
+        "device": "iPad Pro 12.9 2022",
+        "os_version": "16"
+      }
+    ]
+
+  }

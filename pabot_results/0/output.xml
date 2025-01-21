@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.11.0 on darwin)" generated="20221222 22:11:40.458" rpa="false">
+<robot generator="Robot 7.2 (Python 3.11.4 on darwin)" generated="2025-01-21T19:13:41.957306" rpa="false" schemaversion="5">
 <suite id="s1" name="sampleTest" source="/Users/adarsh/Documents/CE/robot-selenium-example/sampleTest.robot">
-<test id="s1-t1" name="BrowserStack Demo Website">
+<test id="s1-t1" name="BrowserStack Demo Website" line="5">
 <errors>
-<msg timestamp="20221222 22:11:40.488" level="ERROR">Unexpected error: TypeError: TestStatus.__init__() got an unexpected keyword argument 'skip_on_failure'
+<msg time="2025-01-21T19:13:41.988268" level="ERROR">Unexpected error: AttributeError: 'TestStatus' object has no attribute '_test'
 Traceback (most recent call last):
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/utils/application.py", line 83, in _execute
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/utils/application.py", line 81, in _execute
     rc = self.main(arguments, **options)
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/run.py", line 443, in main
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/run.py", line 475, in main
     result = suite.run(settings)
              ^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/model.py", line 259, in run
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/running/model.py", line 802, in run
     self.visit(runner)
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testsuite.py", line 174, in visit
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/model/testsuite.py", line 421, in visit
     visitor.visit_suite(self)
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/visitor.py", line 88, in visit_suite
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/model/visitor.py", line 132, in visit_suite
     suite.tests.visit(self)
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/itemlist.py", line 77, in visit
-    item.visit(visitor)
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/model/testcase.py", line 78, in visit
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/model/itemlist.py", line 102, in visit
+    item.visit(visitor)    # type: ignore
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/model/testcase.py", line 178, in visit
     visitor.visit_test(self)
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/robot/running/runner.py", line 122, in visit_test
-    status = TestStatus(self._suite_status, result)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1240, in bstack11ll11l_opy_
-    bstack1ll1ll1_opy_(self, parent, test, skip_on_failure=skip_on_failure, rpa=rpa)</msg>
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/robot/running/suiterunner.py", line 144, in visit_test
+    status = TestStatus(self.suite_status, result, settings.skip_on_failure,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adarsh/Documents/CE/robot-selenium-example/env/lib/python3.11/site-packages/browserstack_sdk/__init__.py", line 1823, in bstack1l1lll1lll_opy_
+    bstack111l11l1l_opy_ = self._test
+                           ^^^^^^^^^^
+AttributeError: 'TestStatus' object has no attribute '_test'</msg>
 </errors>
 </robot>

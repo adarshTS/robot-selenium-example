@@ -1,0 +1,19 @@
+1671729363318	geckodriver	INFO	Listening on 127.0.0.1:62307
+1671729363837	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62308" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/gg/_33wcpln7b1c8mpyfldg26sr0000gn/T/rust_mozprofile8qj6hd"
+1671729364366	Marionette	INFO	Marionette enabled
+2022-12-22 22:46:04.392 plugin-container[5539:4327222] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-22 22:46:04.392 plugin-container[5539:4327222] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671729364396	Marionette	INFO	Listening on port 62323
+2022-12-22 22:46:04.433 plugin-container[5539:4327222] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-22 22:46:04.433 plugin-container[5539:4327222] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-22 22:46:04.433 plugin-container[5539:4327243] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-22 22:46:04.433 plugin-container[5539:4327243] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:62308
+Read port: 62323
+1671729364568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gg/_33wcpln7b1c8mpyfldg26sr0000gn/T/rust_mozprofile8qj6hd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62308/devtools/browser/ac3b93ff-e052-4198-9288-be95a3ef8d4f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://bstackdemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://bstackdemo.com."
+1671729375105	Marionette	INFO	Stopped listening on port 62323
